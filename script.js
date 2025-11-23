@@ -106,10 +106,10 @@ function projectCardTemplate(p) {
 }
 
 function renderProjects() {
-		const container = qs('#js-projects');
-		if (!container) return;
-		// Clear and render
-		container.innerHTML = projects.map(projectCardTemplate).join('\n');
+	const projectsContainer = document.getElementById('js-projects');
+	if (!projectsContainer) return;
+	// Clear and render
+	projectsContainer.innerHTML = projects.map(projectCardTemplate).join('\n');
 }
 
 function initMobileNav() {
