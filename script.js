@@ -12,7 +12,7 @@ const projects = [
 		{
 				id: 1,
 				title: 'Train Booking Demo (Java/Spring Boot)',
-				description: 'Демо-проект API системы бронирования билетов на Java/Spring Boot.',
+			description: 'Demo API for a train booking system built with Java and Spring Boot.',
 				github_url: 'https://github.com/raymaksot/trainbooking-demo',
 				live_demo_url: null,
 				is_featured: true,
@@ -21,7 +21,7 @@ const projects = [
 		{
 				id: 2,
 				title: 'Car Service Website',
-				description: 'Одностраничный адаптивный сайт для автосервиса (HTML, CSS, JS).',
+			description: 'Responsive single-page website for a car service (HTML, CSS, JS).',
 				github_url: 'https://github.com/raymaksot/CarService_website',
 				live_demo_url: 'https://raymaksot.github.io/CarService_website/',
 				is_featured: false,
@@ -30,7 +30,7 @@ const projects = [
 		{
 				id: 3,
 				title: 'Restaurant Website',
-				description: 'Современный, адаптивный сайт-меню для ресторана (HTML, CSS, JS).',
+			description: 'Modern responsive restaurant menu website (HTML, CSS, JS).',
 				github_url: 'https://github.com/raymaksot/restoran-website',
 				live_demo_url: 'https://raymaksot.github.io/restoran-website/',
 				is_featured: false,
